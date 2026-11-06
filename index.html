@@ -19,7 +19,6 @@
         <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-navigation" data-menu-button>Menu</button>
         <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation" data-navigation>
           <a href="#about">About</a>
-          <a href="#research">Research</a>
           <a href="#news">News</a>
           <a href="#publications">Publications</a>
           <a href="#background">Background</a>
@@ -30,19 +29,34 @@
 
     <main id="main-content">
       <section id="top" class="intro" aria-labelledby="intro-title">
-        <p class="intro-label">Researcher · Your Field</p>
-        <h1 id="intro-title">Your Name<span class="accent">.</span></h1>
-        <p class="affiliation">Position, Department · University or Institution</p>
-        <p class="intro-text">
-          I am a researcher working on <strong>your central research theme</strong>.
-          My research focuses on [topic one], [topic two], and [topic three].
-        </p>
-        <div class="profile-links" aria-label="Profile links">
-          <a class="cv-link" href="assets/cv.pdf" target="_blank" rel="noopener">CV (PDF) ↗</a>
-          <a href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank" rel="me noopener">LinkedIn ↗</a>
-          <a href="https://x.com/YOUR-USERNAME" target="_blank" rel="me noopener">X ↗</a>
-          <a href="https://www.facebook.com/YOUR-PROFILE" target="_blank" rel="me noopener">Facebook ↗</a>
-          <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="me noopener">GitHub ↗</a>
+        <div class="intro-copy">
+          <p class="intro-label">Researcher · Your Field</p>
+          <h1 id="intro-title">Your Name<span class="accent">.</span></h1>
+          <p class="affiliation">Position, Department · University or Institution</p>
+          <p class="intro-text">
+            I am a researcher working on <strong>your central research theme</strong>.
+            My research focuses on [topic one], [topic two], and [topic three].
+          </p>
+          <div class="profile-links" aria-label="Profile links">
+            <a class="cv-link" href="assets/cv.pdf" target="_blank" rel="noopener">CV (PDF) ↗</a>
+            <a href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank" rel="me noopener">LinkedIn ↗</a>
+            <a href="https://x.com/YOUR-USERNAME" target="_blank" rel="me noopener">X ↗</a>
+            <a href="https://www.facebook.com/YOUR-PROFILE" target="_blank" rel="me noopener">Facebook ↗</a>
+            <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="me noopener">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="profile-photo-frame">
+          <img
+            class="profile-photo"
+            src="assets/profile.jpg"
+            alt="Portrait of Your Name"
+            data-profile-photo
+          >
+          <div class="photo-placeholder" data-photo-placeholder>
+            <span>Profile photo</span>
+            <small>assets/profile.jpg</small>
+          </div>
         </div>
       </section>
 
@@ -54,12 +68,7 @@
             My work explores [brief explanation of your research area], with a particular
             interest in [specific topic or question]. I received my [degree] from [university].
           </p>
-        </div>
-      </section>
-
-      <section id="research" class="content-section" aria-labelledby="research-title">
-        <h2 id="research-title">Research Interests</h2>
-        <div class="section-content">
+          <h3>Research Interests</h3>
           <ul class="topic-list">
             <li>First research interest</li>
             <li>Second research interest</li>
@@ -83,39 +92,39 @@
       <section id="publications" class="content-section publications" aria-labelledby="publications-title">
         <h2 id="publications-title">Publications</h2>
         <div class="section-content publication-groups">
-          <details open>
-            <summary><span>Journal Articles</span><span class="count">1</span></summary>
+          <section class="publication-group" aria-labelledby="journal-title">
+            <h3 id="journal-title">Journal Articles</h3>
             <ol class="publication-list">
               <li>
                 <p><strong>Your Name</strong>, Coauthor Name, and Coauthor Name. “Title of the Journal Article.” <em>Journal Name</em>, vol. 00, no. 0, pp. 00–00, 2026.</p>
                 <p class="item-links"><a href="https://doi.org/10.0000/example" target="_blank" rel="noopener">DOI ↗</a><a href="#">PDF ↗</a></p>
               </li>
             </ol>
-          </details>
+          </section>
 
-          <details>
-            <summary><span>International Conference Papers</span><span class="count">1</span></summary>
+          <section class="publication-group" aria-labelledby="international-title">
+            <h3 id="international-title">International Conference Papers</h3>
             <ol class="publication-list">
               <li>
                 <p><strong>Your Name</strong> and Coauthor Name. “Title of the International Conference Paper.” In <em>Proceedings of Conference Name</em>, City, Country, 2025.</p>
                 <p class="item-links"><a href="#">PDF ↗</a></p>
               </li>
             </ol>
-          </details>
+          </section>
 
-          <details>
-            <summary><span>Domestic Conferences — Peer-reviewed</span><span class="count">1</span></summary>
+          <section class="publication-group" aria-labelledby="domestic-reviewed-title">
+            <h3 id="domestic-reviewed-title">Domestic Conferences — Peer-reviewed</h3>
             <ol class="publication-list">
               <li><p><strong>Your Name</strong> and Coauthor Name. “English Title of the Conference Paper.” <em>Conference Name</em>, City, Japan, 2025.</p></li>
             </ol>
-          </details>
+          </section>
 
-          <details>
-            <summary><span>Domestic Conferences — Non-peer-reviewed</span><span class="count">1</span></summary>
+          <section class="publication-group" aria-labelledby="domestic-nonreviewed-title">
+            <h3 id="domestic-nonreviewed-title">Domestic Conferences — Non-peer-reviewed</h3>
             <ol class="publication-list">
               <li><p><strong>Your Name</strong>. “English Title of the Presentation.” <em>Workshop or Conference Name</em>, City, Japan, 2024.</p></li>
             </ol>
-          </details>
+          </section>
         </div>
       </section>
 
