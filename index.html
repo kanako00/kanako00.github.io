@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Academic homepage of Your Name — research interests, publications, education, and experience.">
+    <meta name="description" content="Academic homepage of Kanako Suzuki — research interests, publications, education, and experience.">
     <meta name="theme-color" content="#ffffff">
-    <title>Your Name | Academic Homepage</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Kanako Suzuki</title>
+    <link rel="stylesheet" href="styles.css?v=20261107-5">
     <script src="script.js" defer></script>
   </head>
 
@@ -15,10 +15,9 @@
 
     <header class="site-header">
       <div class="header-inner">
-        <a class="site-name" href="#top">Your Name</a>
+        <a class="site-name" href="#top">Kanako Suzuki</a>
         <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-navigation" data-menu-button>Menu</button>
         <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation" data-navigation>
-          <a href="#about">About</a>
           <a href="#news">News</a>
           <a href="#publications">Publications</a>
           <a href="#background">Background</a>
@@ -30,27 +29,34 @@
     <main id="main-content">
       <section id="top" class="intro" aria-labelledby="intro-title">
         <div class="intro-copy">
-          <p class="intro-label">Researcher · Your Field</p>
-          <h1 id="intro-title">Your Name<span class="accent">.</span></h1>
-          <p class="affiliation">Position, Department · University or Institution</p>
+          <h1 id="intro-title">Kanako Suzuki</h1>
+          <p class="affiliation">Master's Student, Pure and Applied Physics · Waseda University</p>
           <p class="intro-text">
-            I am a researcher working on <strong>your central research theme</strong>.
-            My research focuses on [topic one], [topic two], and [topic three].
+            I am a master's student at Waseda University, Japan.
+            My current research focuses on music information retrieval, with a particular
+            emphasis on music recommendation and user preference modeling.
           </p>
+          <h2 class="intro-subheading">Research Interests</h2>
+          <ul class="topic-list">
+            <li>Music Information Retrieval</li>
+            <li>Music Recommendation</li>
+            <li>Human-Computer Interaction</li>
+            <li>Machine Learning</li>
+          </ul>
           <div class="profile-links" aria-label="Profile links">
-            <a class="cv-link" href="assets/cv.pdf" target="_blank" rel="noopener">CV (PDF) ↗</a>
-            <a href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank" rel="me noopener">LinkedIn ↗</a>
-            <a href="https://x.com/YOUR-USERNAME" target="_blank" rel="me noopener">X ↗</a>
-            <a href="https://www.facebook.com/YOUR-PROFILE" target="_blank" rel="me noopener">Facebook ↗</a>
-            <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="me noopener">GitHub ↗</a>
+            <a class="cv-link" href="assets/CV_Nov.7.pdf" target="_blank" rel="noopener">CV (PDF) ↗</a>
+            <a href="https://www.linkedin.com/in/kanako-suzuki/" target="_blank" rel="me noopener">LinkedIn ↗</a>
+            <a href="https://x.com/kanako__o0" target="_blank" rel="me noopener">X ↗</a>
+            <a href="https://www.facebook.com/profile.php?id=61572733705105" target="_blank" rel="me noopener">Facebook ↗</a>
+            <a href="https://github.com/kanako00" target="_blank" rel="me noopener">GitHub ↗</a>
           </div>
         </div>
 
         <div class="profile-photo-frame">
           <img
             class="profile-photo"
-            src="assets/profile.jpg"
-            alt="Portrait of Your Name"
+            src="assets/Profile.png"
+            alt="Portrait of Kanako Suzuki"
             data-profile-photo
           >
           <div class="photo-placeholder" data-photo-placeholder>
@@ -60,31 +66,15 @@
         </div>
       </section>
 
-      <section id="about" class="content-section" aria-labelledby="about-title">
-        <h2 id="about-title">About</h2>
-        <div class="section-content">
-          <p>
-            I am a <strong>[position]</strong> at <strong>[institution]</strong>.
-            My work explores [brief explanation of your research area], with a particular
-            interest in [specific topic or question]. I received my [degree] from [university].
-          </p>
-          <h3>Research Interests</h3>
-          <ul class="topic-list">
-            <li>First research interest</li>
-            <li>Second research interest</li>
-            <li>Third research interest</li>
-            <li>Fourth research interest</li>
-          </ul>
-        </div>
-      </section>
-
       <section id="news" class="content-section" aria-labelledby="news-title">
         <h2 id="news-title">News</h2>
         <div class="section-content">
           <ol class="news-list">
-            <li><time datetime="2026-11">2026.11</time><span>Our paper was accepted for presentation at [Conference Name].</span></li>
-            <li><time datetime="2026-04">2026.04</time><span>I joined [Institution Name] as a [Position].</span></li>
-            <li><time datetime="2025-12">2025.12</time><span>A new research project on [topic] has started.</span></li>
+            <li><time datetime="2026-10">Oct. 2026</time><span>One paper was accepted to WISS 2026.</span></li>
+            <li><time datetime="2026-09">Sep. 2026</time><span>Participated in a research internship at National Institute of Advanced Industrial Science and Technology (AIST).</span></li>
+            <li><time datetime="2026-07">Jul. 2026</time><span>One paper was accepted to ISMIR 2026.</span></li>
+            <li><time datetime="2026-03">Mar. 2026</time><span>Participated in a research internship at National Institute of Advanced Industrial Science and Technology (AIST).</span></li>
+            <li><time datetime="2025-09">Sep. 2025</time><span>Participated in a research internship at National Institute of Advanced Industrial Science and Technology (AIST).</span></li>
           </ol>
         </div>
       </section>
@@ -92,22 +82,22 @@
       <section id="publications" class="content-section publications" aria-labelledby="publications-title">
         <h2 id="publications-title">Publications</h2>
         <div class="section-content publication-groups">
+          <!-- Journal Articles: remove these comment markers when an article is added.
           <section class="publication-group" aria-labelledby="journal-title">
             <h3 id="journal-title">Journal Articles</h3>
             <ol class="publication-list">
               <li>
                 <p><strong>Your Name</strong>, Coauthor Name, and Coauthor Name. “Title of the Journal Article.” <em>Journal Name</em>, vol. 00, no. 0, pp. 00–00, 2026.</p>
-                <p class="item-links"><a href="https://doi.org/10.0000/example" target="_blank" rel="noopener">DOI ↗</a><a href="#">PDF ↗</a></p>
               </li>
             </ol>
           </section>
+          -->
 
           <section class="publication-group" aria-labelledby="international-title">
             <h3 id="international-title">International Conference Papers</h3>
             <ol class="publication-list">
               <li>
-                <p><strong>Your Name</strong> and Coauthor Name. “Title of the International Conference Paper.” In <em>Proceedings of Conference Name</em>, City, Country, 2025.</p>
-                <p class="item-links"><a href="#">PDF ↗</a></p>
+                <p><strong>Kanako Suzuki</strong>, Kosetsu Tsukuda, Takayuki Nakatsuka, Kento Watanabe, Tomoyasu Nakano, Masataka Goto, Keitaro Tanaka, and Shigeo Morishima. “Toward Song Exploration Without Listening Through Lyrics-Derived Linguistic Information.” In <em>the 27th International Society for Music Information Retrieval (ISMIR) Conference</em>, Abu Dhabi, UAE, 2026.</p>
               </li>
             </ol>
           </section>
@@ -115,14 +105,14 @@
           <section class="publication-group" aria-labelledby="domestic-reviewed-title">
             <h3 id="domestic-reviewed-title">Domestic Conferences — Peer-reviewed</h3>
             <ol class="publication-list">
-              <li><p><strong>Your Name</strong> and Coauthor Name. “English Title of the Conference Paper.” <em>Conference Name</em>, City, Japan, 2025.</p></li>
+              <li><p><strong>鈴木華奈子</strong>, 佃洸摂, 中塚貴之, 渡邉研斗, 中野倫靖, 田中啓太郎, 森島繁生. “ListenLast: 好みでない楽曲を極力聴きたくない人のための歌詞由来情報を用いた楽曲探索インタフェース.” <em>インタラクティブシステムとソフトウェアに関するワークショップ (WISS)</em>, Niigata, Japan, 2026.</p></li>
             </ol>
           </section>
 
           <section class="publication-group" aria-labelledby="domestic-nonreviewed-title">
             <h3 id="domestic-nonreviewed-title">Domestic Conferences — Non-peer-reviewed</h3>
             <ol class="publication-list">
-              <li><p><strong>Your Name</strong>. “English Title of the Presentation.” <em>Workshop or Conference Name</em>, City, Japan, 2024.</p></li>
+              <li><p><strong>鈴木華奈子</strong>, 佃洸摂, 中塚貴之, 渡邉研斗, 中野倫靖, 田中啓太郎, 森島繁生. “歌詞に内在する意味を反映した言語情報提示に基づく試聴不要な楽曲探索支援の提案.” <em>第145回音楽情報科学研究発表会</em>, Nagoya, Japan, 2026.</p></li>
             </ol>
           </section>
         </div>
@@ -134,17 +124,17 @@
           <section aria-labelledby="education-title">
             <h3 id="education-title">Education</h3>
             <ol class="timeline">
-              <li><time>2023–2026</time><div><strong>Ph.D. in Your Field</strong><br>University Name, Japan</div></li>
-              <li><time>2021–2023</time><div><strong>M.S. in Your Field</strong><br>University Name, Japan</div></li>
-              <li><time>2017–2021</time><div><strong>B.S. in Your Field</strong><br>University Name, Japan</div></li>
+              <li><time>Apr. 2026–Present</time><div><strong>M.S. in Pure and Applied Physics</strong><br>Waseda University, Japan</div></li>
+              <li><time>Apr. 2022–Mar. 2026</time><div><strong>B.S. in Applied Physics</strong><br>Waseda University, Japan</div></li>
             </ol>
           </section>
 
           <section aria-labelledby="experience-title">
             <h3 id="experience-title">Experience</h3>
             <ol class="timeline">
-              <li><time>2026–Present</time><div><strong>Current Position</strong><br>Institution Name, Japan</div></li>
-              <li><time>2024–2026</time><div><strong>Previous Position</strong><br>Institution Name, Japan</div></li>
+              <li><time>Aug. 2026–Sep. 2026</time><div><strong>Internship</strong><br>National Institute of Advanced Industrial Science and Technology (AIST), Japan</div></li>
+              <li><time>Feb. 2026–Mar. 2026</time><div><strong>Internship</strong><br>National Institute of Advanced Industrial Science and Technology (AIST), Japan</div></li>
+              <li><time>Aug. 2025–Sep. 2025</time><div><strong>Internship</strong><br>National Institute of Advanced Industrial Science and Technology (AIST), Japan</div></li>
             </ol>
           </section>
         </div>
@@ -154,21 +144,22 @@
         <h2 id="contact-title">Contact</h2>
         <div class="section-content contact-content">
           <div>
-            <a class="email" href="mailto:your.name@example.ac.jp">your.name@example.ac.jp</a>
-            <address>Your Laboratory, Department<br>University, City, Postal Code, Japan</address>
+            <span class="email">kanakowie[at]toki.waseda.jp</span>
+            <address>55N406, 3-4-1 Okubo, Shinjuku, Tokyo 169-0072, Japan (<a href="https://morishima-lab.jp/?lang=en" target="_blank" rel="noopener">Morishima Lab</a>)
+              <br>+81-3-5286-3510 (<a href="https://morishima-lab.jp/?lang=en" target="_blank" rel="noopener">Morishima Lab</a>)</address>
           </div>
           <div class="contact-links">
-            <a href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank" rel="me noopener">LinkedIn ↗</a>
-            <a href="https://x.com/YOUR-USERNAME" target="_blank" rel="me noopener">X ↗</a>
-            <a href="https://www.facebook.com/YOUR-PROFILE" target="_blank" rel="me noopener">Facebook ↗</a>
-            <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="me noopener">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/kanako-suzuki/" target="_blank" rel="me noopener">LinkedIn ↗</a>
+            <a href="https://x.com/kanako__o0" target="_blank" rel="me noopener">X ↗</a>
+            <a href="https://www.facebook.com/profile.php?id=61572733705105" target="_blank" rel="me noopener">Facebook ↗</a>
+            <a href="https://github.com/kanako00" target="_blank" rel="me noopener">GitHub ↗</a>
           </div>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>&copy; <span data-current-year>2026</span> Your Name</p>
+      <p>&copy; <span data-current-year>2026</span> Kanako Suzuki</p>
       <a href="#top">Back to top ↑</a>
     </footer>
   </body>
